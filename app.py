@@ -1,6 +1,7 @@
 import pickle
 import streamlit as st
 import numpy as np
+import sklearn 
 
 # Load model yang sudah disimpan
 model = pickle.load(open('prd.sav', 'rb'))
